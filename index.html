@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <title>Criptografar | Descriptografar</title>
+</head>
+<body>
+    <header>
+        <h1 class="titulo-principal">Criptografar | Descriptografar </h1>
+    </header>
+
+    <main>
+
+        <section>
+
+            <textarea class="entrada-texto" placeholder="Digite seu texo"></textarea>
+            
+            <div class="botoes">
+
+               <input type="submit" id="botao-criptografar" value="Criptografar" onclick="btnCriptografar()">
+
+               <input type="submit" id="botao-descriptografar" value="Descriptografar" onclick="btnDescriptografar()">
+
+            </div>
+
+        </section>
+
+        <section>
+
+            <textarea class="saida-texto"></textarea>
+            <input type="submit" class="botao-copiar" onclick="copiar()" value="Copiar">
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div id="container-rodape" style="clear: both;">
+            <div id="rodape">
+                &COPY; Copyright 2022 | Desenvolvido por: Gabriel Lima Ferreira
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
